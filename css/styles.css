@@ -1,0 +1,225 @@
+/*СТИЛИ WebStudio-index.html */
+:root {
+    /* главный цвет текста */
+    --primery-text-color: #434455;
+    /* цвет акцента */
+    --accent-color: #FFFFFF;
+    /* цвет логотипа footer */
+    --secondary-color: #E7E9FC;
+    /* цвет кнопки */
+    --primery-bg-logo-color: #4D5AE5;
+    /* цвет bg Team */
+    --secondary-bg-color: #F4F4FD;
+    /* цвет кнопки hover focus */
+    --hov-foc-color: #404BBF
+}
+
+body {
+    background-color: var(--accent-color);
+    color: var(--primery-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+
+}
+
+/* сброс маркеров */
+.list {
+    list-style: none;
+}
+
+/* логотип header */
+
+.logo {
+    color: var(--primery-bg-logo-color);
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.logo-header span {
+    color: var(--primery-text-color);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+/* навигация сайта */
+.site-nav .link {
+    color: var(--primery-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hov-foc-color);
+}
+
+.adress-list .link:hover,
+.adress-list .link:focus {
+    color: var(--hov-foc-color);
+}
+
+.adress-list .link {
+    color: var(--primery-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+/* герой */
+.hero {
+    background-color: var(--primery-text-color);
+}
+
+.hero-title {
+    color: var(--accent-color);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
+
+/* скрытый заголовок */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* кнопка */
+.button {
+    color: var(--accent-color);
+    background-color: var(--primery-bg-logo-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+    background-color: var(--hov-foc-color);
+}
+
+/* секции */
+.section-title {
+    color: var(--primery-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.feature-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* сотрудники */
+.section .item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section .text-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+/* логотип footer */
+footer {
+    background-color: var(--primery-text-color);
+}
+
+.logo-footer span {
+    color: var(--secondary-bg-color);
+    letter-spacing: 0.03em;
+}
+
+.logo-text {
+    color: var(--secondary-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+/* СТИЛИ Portfolio portfolio.html */
+.site-nav .link.current {
+    color: var(--primery-bg-logo-color);
+}
+
+/* кнопка Portfolio */
+.button-portfolio {
+    color: var(--primery-bg-logo-color);
+    background-color: var(--secondary-bg-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--accent-color);
+    background-color: var(--hov-foc-color);
+}
+
+.feature-list-portfolio .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-list-portfolio .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
