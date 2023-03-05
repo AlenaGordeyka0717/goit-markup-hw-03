@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*СТИЛИ WebStudio-index.html */
 :root {
     /* главный цвет текста */
@@ -157,7 +161,7 @@ body {
 }
 
 .hero-title {
-    width: 700px;
+    width: 496px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -338,7 +342,7 @@ body {
 .team-list .title {
     padding-top: 32px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 
 
     font-weight: 500;
@@ -349,7 +353,8 @@ body {
 }
 
 .team-list .text {
-    padding-top: 8px;
+    padding-top: 0px;
+    margin-top: 8px;
 
     font-weight: 400;
     font-size: 16px;
@@ -367,13 +372,15 @@ body {
 }
 
 .team-section {
+
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .team-section .text {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
+    padding-top: 0;
 
     font-weight: 400;
     font-size: 16px;
@@ -467,6 +474,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 120px;
+
 }
 
 .advantages-item-portfolio:nth-child(3n) {
@@ -477,6 +485,8 @@ body {
     margin-bottom: 0;
 }
 
+
+
 .advantages-item-portfolio {
     width: 360px;
     margin-right: 24px;
@@ -484,7 +494,21 @@ body {
 
 }
 
+.heading-box-portfolio {
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--primery-text-color);
+    border-bottom: 1px solid var(--secondary-color);
+    border-left: 1px solid var(--secondary-color);
+    border-right: 1px solid var(--secondary-color);
+
+}
+
+
 .advantages-list-portfolio .title {
+
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
@@ -494,29 +518,24 @@ body {
 }
 
 .advantages-list-portfolio .text {
-    margin-top: 0;
+
+    margin-top: 8px;
     margin-bottom: 0;
-    padding-top: 8px;
-    padding-bottom: 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 
 .advantages-item-portfolio .imag {
     display: block;
     max-width: 100%;
     height: auto;
-
 }
 
-.heading-box-portfolio {
-    padding-top: 32px;
-    border-bottom: 1px solid var(--secondary-color);
-    border-left: 1px solid var(--secondary-color);
-    border-right: 1px solid var(--secondary-color);
-}
+
+
 
 /* < !-- Фуетер futer --> */
 
